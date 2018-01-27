@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Fusion Byte Tutorial</title>
+    <title>Interactive Data Science: Byte 1</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,6 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="about">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -44,18 +43,25 @@
     <div class="container theme-showcase" role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-	<h1>Data Pipeline Project Fusion Byte Example</h1>
-        <p>This is the Fusion Byte of the Data Pipeline class. This
-        page should explain what question you want to answer and use
-        the visualization tools provided by Google Fusion Table to
-        answer it. </p>
+      <div class="jumbotron", style="text-align:center">
+	<h1> Interactive Data Science: Byte 1 </h1>
+	<h1 style="font-size:50px;">  Bitcoin Price Statistics  </h1> 
+	<h3>  <font color = "#4e5a68"> Major Question </font> </h3>
+        <p> What is my question? </p>
+     <h3> <font color = "#4e5a68"> Acknowledgemend </font> </h3>
+     	<p> Data Source: <a href = "https://data.bitcoinity.org/markets/exchanges/USD/30d"> https://data.bitcoinity.org/markets/exchanges/USD/30d </a></p>
       </div>
-
-
-<iframe width="500" height="300" scrolling="no" frameborder="no"
-	src="https://www.google.com/fusiontables/embedviz?q=select+col16%3E%3E0+from+1ymz3EtGdi4qKGMl5AxEFXtTlgk3tKi8iCpjTzvM&amp;viz=MAP&amp;h=false&amp;lat=38.071424981566125&amp;lng=-85.15232666015623&amp;t=1&amp;z=9&amp;l=col16%3E%3E0&amp;y=3&amp;tmplt=3&amp;hml=TWO_COL_LAT_LNG"></iframe>
-
+      
+    <div class="page-header">
+        <h1> <font color = "#4e5a68"> Bitcoin Price Visualization </font> </h1>
+    </div>
+    
+    <div , style="text-align:center">
+    <h2> <font face="verdana" color="#5f5f5f"> Bitcoin Price over the past 30 days by Bitcoin Exchanges </font> </h2>
+<iframe width="1200" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;viz=GVIZ&amp;t=LINE_AGGREGATE&amp;isXyPlot=true&amp;bsize=0.0&amp;q=select+col0%2C+col1%2C+col2%2C+col3%2C+col4%2C+col5%2C+col9+from+1hi3RHlZbeJWpltT1rBKTT6z911U_geZH4XC80e1f&amp;qrs=+where+col0+%3E%3D+&amp;qre=+and+col0+%3C%3D+&amp;qe=+order+by+col0+asc&amp;uiversion=2&amp;rstart=2017%2F12%2F28+19%3A0%3A0&amp;rend=2018%2F1%2F27+17%3A16%3A6&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=1200&amp;height=500"></iframe>
+	</div>
+	<p><font size = "4" face="verdana" color="#5f5f5f"> The zoomable line chart shows the trend of Bitcoin Price by 6 different digital currency exchange, including "others".  The Y axis shows the price of 1 Bitcoin in USD (USD/BTC), while the X axis shows the date of the past 30 days (2017-12-28 to 2018-01-27).  
+	</font></p>
       </div> <!-- /page-header -->
     </div> <!-- /container -->
 
